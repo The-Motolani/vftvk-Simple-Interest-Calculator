@@ -68,6 +68,10 @@ Improve layout responsiveness
 
 Add unit tests
 
+## Live Demo
+
+[View Live Demo](https://the-motolani.github.io/vftvk-Simple-Interest-Calculator/)
+
 ## Author
 
 Created by Motolani Alebiosu as part of the IBM Skills Network program.
