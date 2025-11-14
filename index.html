@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+        <meta charset = utf-8>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <title> Simple Interest Calculator</title>
+    <body>
+        <main class="container">
+
+        <h1>Simple Interest Calculator</h1>
+            <form>
+                <label for="principal">
+        Amount: <br>
+        <input type="number"  id="principal">  <br/>
+        </label>
+        <label for="rate">Rate:<br>
+        <input type="range"  id="rate" min="1" max="20" value="10.25" step="0.25" onchange="updateRate()">
+        <br>
+        <span id = 'rate_val'>
+            10.25
+        </span>%  
+        <br/>
+        </label>
+        <label for="years">
+        No. of Years: <br>
+         <input type="number"  id="years" list="all_years">  
+        <datalist id="all_years">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3"> 3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8"> 8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+        <br/>
+        </label>
+        Interest : 
+        <br>
+        <span id="result"></span><br>
+        </form>
+        <button onclick="compute()">Compute Interest</button>
+        <span id="result">
+
+        </span>
+    </main>
+        <footer>
+             &#169; This Calculator belongs to The Motolani
+        </footer>
+    </body>
+</html>
