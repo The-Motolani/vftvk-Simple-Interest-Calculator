@@ -37,7 +37,7 @@ This project was developed as part of the IBM Skills Network coursework to pract
 
 > - Amount deposited
 > - Interest rate
-> -Calculated interest
+> - Calculated interest
 > - Maturity year
 > - Total amount
 
